@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/googleg_standard_color_18"
+            android:title="Google"/>
+        <item
+            android:id="@+id/myHunts"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Android"/>
+
+    </group>
+</menu>

@@ -1,0 +1,38 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/blue</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="sourceRegular" parent="android:TextAppearance">
+        <item name="fontPath">fonts/SourceSansPro-Regular.ttf</item>
+    </style>
+    <style name="sourceBoldIt" parent="android:TextAppearance">
+        <item name="fontPath">fonts/SourceSansPro-BoldIt.ttf</item>
+    </style>
+    <style name="sourceLight" parent="android:TextAppearance">
+        <item name="fontPath">fonts/SourceSansPro-Light.ttf</item>
+    </style>
+    <style name="foutAwesome" parent="android:TextAppearance">
+        <item name="fontPath">fonts/fontawesome-webfont.ttf</item>
+    </style>
+</resources>
