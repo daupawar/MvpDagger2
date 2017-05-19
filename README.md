@@ -22,9 +22,7 @@ Libraries and tools included:
 
 This project follows Android architecture guidelines that are based on [MVP (Model View Presenter)]
 
-## 
-
-Features
+## Features
 - Sidebar
 - Custom fonts
 - Retrofit with custom Deserializer for nested json parsing
