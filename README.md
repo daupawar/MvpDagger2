@@ -1,6 +1,6 @@
 # MvpDagger2
 
--Sample Android app i use as a reference for new Android projects. Inprired by [ribot](https://github.com/ribot/android-boilerplate) projet.
+-Sample Android app i use as a reference for new Android projects. Inprired by [ribot](https://github.com/ribot/android-boilerplate) project.
 
 Libraries and tools included:
 
