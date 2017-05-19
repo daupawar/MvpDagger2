@@ -27,7 +27,7 @@ public interface RestService {
 
         public static RestService newRibotsService() {
             Gson gson = new GsonBuilder()
-                    .setDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
+                    .registerTypeAdapter(ApiResponse.class, new MyDeserializer<ApiResponse>())
                     .create();
             Retrofit retrofit = new Retrofit.Builder()
                     .baseUrl(RestService.CONNECTIONUR)
