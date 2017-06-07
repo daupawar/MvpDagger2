@@ -17,8 +17,7 @@
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme.NoActionBar"
-        tools:node="replace">
+        android:theme="@style/AppTheme.NoActionBar">
         <!--=========================Activities===================-->
         <activity
             android:name="com.ron.fp.ui.splash.SplashScreen"
